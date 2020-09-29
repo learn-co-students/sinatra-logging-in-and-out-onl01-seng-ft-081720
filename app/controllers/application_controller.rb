@@ -11,6 +11,8 @@ class ApplicationController < Sinatra::Base
   end
 
   post '/login' do
+    binding.pry
+    
 
   end
 
