@@ -10,12 +10,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_09_29_195127) do
+ActiveRecord::Schema.define(version: 2020_09_30_010345) do
 
   create_table "users", force: :cascade do |t|
     t.string "username"
     t.string "password"
-    t.decimal "balance"
+    t.integer "balance"
   end
 
 end
