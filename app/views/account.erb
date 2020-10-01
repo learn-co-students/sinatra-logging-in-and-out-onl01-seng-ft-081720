@@ -7,6 +7,11 @@
   </head>
   <body id="page-top">
     
+ <h1>Welcome <%= Helpers.current_user(session).username %></h1>
+
+
+    <p>Current balance: <%= 1000.0 %></p>
+    <a id='Log Out' href="/logout">
 
   </body>
 </html>
